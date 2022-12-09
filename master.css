@@ -1,0 +1,74 @@
+/* html 기본요소 reset */
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.index1 {
+    background-image:url(./img/index1.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+.title {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 150px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    line-height: 500px;
+    text-align: center;
+    color: white;
+}
+
+.photos {
+    padding: 0 370px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photos > a:hover {
+    transform: scale(1.2);
+}
+
+.photos > a > img {
+    transition: 0.85s;
+    width: 80%;
+}
+
+
+/*--sub1 html--*/
+.sub1{
+    width: 100%;
+    
+}
+
+.sub1_img{
+    height: 799px;
+    background-image: url('img/sub1.png');background-size: cover;
+}
+
+/*--sub2 html--*/
+.sub2{
+    width: 100%;
+    
+}
+
+.sub2_img{
+    height: 799px;
+    background-image: url('img/sub2.png');background-size: cover;
+}
+
+/*--sub3 html--*/
+.sub3{
+    width: 100%;
+    
+}
+
+.sub3_img{
+    height: 799px;
+    background-image: url('img/sub3.png');background-size: cover;
+}
