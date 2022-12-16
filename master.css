@@ -56,6 +56,10 @@ html, body, div, img {
     background-image: url('img/sub1.png');background-size: cover;
 }
 
+small{
+    color: rgb(99, 99, 99);
+}
+
 /*--내용 sub1--*/
 .wrap2{
     width: 1100px;
@@ -79,6 +83,7 @@ html, body, div, img {
     font-weight: 400;
     line-height: 47px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .sub3{
@@ -87,7 +92,7 @@ html, body, div, img {
     letter-spacing: -1px;
     font-weight: 400;
     line-height: 47px;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -250,8 +255,8 @@ html, body, div, img {
 
 .sub17{
     background-image:url(img/10.png);
-    width: 1920px;
-    height: 1240px;
+    width: 1520px;
+    height: 940px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
